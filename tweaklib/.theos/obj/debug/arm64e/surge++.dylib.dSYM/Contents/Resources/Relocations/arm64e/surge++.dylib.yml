@@ -1,0 +1,90 @@
+---
+triple:          'arm64e-apple-darwin'
+binary-path:     '/Users/pxx917144686/Downloads/surge_for_ios/tweaklib/.theos/obj/debug/arm64e/surge++.dylib'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: _MSHookMessageEx, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xE8 }
+  - { offset: 0x37, size: 0x8, addend: 0x0, symName: _PLIST_CONTENT, symObjAddr: 0x59F0, symBinAddr: 0x30000, symSize: 0x0 }
+  - { offset: 0xAF, size: 0x8, addend: 0x0, symName: _SGJSVM_INJECT_BASE64, symObjAddr: 0x59F8, symBinAddr: 0x30008, symSize: 0x0 }
+  - { offset: 0xD2, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$NSUserDefaults$objectForKey$', symObjAddr: 0x9A38, symBinAddr: 0x3C1F0, symSize: 0x0 }
+  - { offset: 0x1CC, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$NSUserDefaults$setObject$forKey$', symObjAddr: 0x9A40, symBinAddr: 0x3C1F8, symSize: 0x0 }
+  - { offset: 0x1FC, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SGRequestHelper$dataTaskWithRequest$completionHandler$', symObjAddr: 0x9A48, symBinAddr: 0x3C200, symSize: 0x0 }
+  - { offset: 0x89F, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SGRequestHelper$dataTaskWithURL$completionHandler$', symObjAddr: 0x9A50, symBinAddr: 0x3C208, symSize: 0x0 }
+  - { offset: 0xC3E, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SGModuleManager$_enableNewOfficialModules', symObjAddr: 0x9A58, symBinAddr: 0x3C210, symSize: 0x0 }
+  - { offset: 0xC72, size: 0x8, addend: 0x0, symName: _SGInjectedOfficialModulesData, symObjAddr: 0xA2C, symBinAddr: 0x4A2C, symSize: 0x88 }
+  - { offset: 0xC97, size: 0x8, addend: 0x0, symName: _SGInjectedOfficialModulesData.data, symObjAddr: 0x9A60, symBinAddr: 0x3C218, symSize: 0x0 }
+  - { offset: 0xCAC, size: 0x8, addend: 0x0, symName: _SGInjectedOfficialModulesData.onceToken, symObjAddr: 0x9A68, symBinAddr: 0x3C220, symSize: 0x0 }
+  - { offset: 0xD0C, size: 0x8, addend: 0x0, symName: _MSHookMessageEx, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xE8 }
+  - { offset: 0xD76, size: 0x8, addend: 0x0, symName: __logosLocalInit, symObjAddr: 0xE8, symBinAddr: 0x40E8, symSize: 0x128 }
+  - { offset: 0xDC8, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$NSUserDefaults$objectForKey$', symObjAddr: 0x210, symBinAddr: 0x4210, symSize: 0x228 }
+  - { offset: 0xE44, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$NSUserDefaults$setObject$forKey$', symObjAddr: 0x438, symBinAddr: 0x4438, symSize: 0xF4 }
+  - { offset: 0xE92, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGRequestHelper$dataTaskWithRequest$completionHandler$', symObjAddr: 0x52C, symBinAddr: 0x452C, symSize: 0x280 }
+  - { offset: 0xF2C, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGRequestHelper$dataTaskWithURL$completionHandler$', symObjAddr: 0x7AC, symBinAddr: 0x47AC, symSize: 0x250 }
+  - { offset: 0xFC6, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGModuleManager$_enableNewOfficialModules', symObjAddr: 0x9FC, symBinAddr: 0x49FC, symSize: 0x30 }
+  - { offset: 0x102A, size: 0x8, addend: 0x0, symName: ___SGInjectedOfficialModulesData_block_invoke, symObjAddr: 0xAB4, symBinAddr: 0x4AB4, symSize: 0xF8 }
+  - { offset: 0x1082, size: 0x8, addend: 0x0, symName: _SGSeedSharedContainerFiles, symObjAddr: 0xBAC, symBinAddr: 0x4BAC, symSize: 0x370 }
+  - { offset: 0x1106, size: 0x8, addend: 0x0, symName: _SGCompleteWithModuleResponse, symObjAddr: 0xF1C, symBinAddr: 0x4F1C, symSize: 0x418 }
+  - { offset: 0x1185, size: 0x8, addend: 0x0, symName: _SGMiniActivationResponse, symObjAddr: 0x1334, symBinAddr: 0x5334, symSize: 0x744 }
+  - { offset: 0x1353, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController initWithTitle:message:image:actions:]', symObjAddr: 0x0, symBinAddr: 0x5A78, symSize: 0x198 }
+  - { offset: 0x136C, size: 0x8, addend: 0x0, symName: _DEFAULT_ICON_BASE64, symObjAddr: 0x21368, symBinAddr: 0x30030, symSize: 0x0 }
+  - { offset: 0x13F3, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SGUModuleViewController$viewDidAppear$', symObjAddr: 0x34458, symBinAddr: 0x3C228, symSize: 0x0 }
+  - { offset: 0x2A33, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SGULicenseViewController$handleAsyncResponse$', symObjAddr: 0x34460, symBinAddr: 0x3C230, symSize: 0x0 }
+  - { offset: 0x2A88, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SGULicenseViewController$reloadCells', symObjAddr: 0x34468, symBinAddr: 0x3C238, symSize: 0x0 }
+  - { offset: 0x2AAF, size: 0x8, addend: 0x0, symName: '__logos_orig$_ungrouped$SGULicenseViewController$viewDidAppear$', symObjAddr: 0x34470, symBinAddr: 0x3C240, symSize: 0x0 }
+  - { offset: 0x2AE3, size: 0x8, addend: 0x0, symName: _SGUIDateFormatter, symObjAddr: 0x5250, symBinAddr: 0xACC8, symSize: 0x88 }
+  - { offset: 0x2B0A, size: 0x8, addend: 0x0, symName: _SGUIDateFormatter.fmt, symObjAddr: 0x34478, symBinAddr: 0x3C248, symSize: 0x0 }
+  - { offset: 0x2B20, size: 0x8, addend: 0x0, symName: _SGUIDateFormatter.onceToken, symObjAddr: 0x34480, symBinAddr: 0x3C250, symSize: 0x0 }
+  - { offset: 0x3D29, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController initWithTitle:message:image:actions:]', symObjAddr: 0x0, symBinAddr: 0x5A78, symSize: 0x198 }
+  - { offset: 0x3D97, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController animationControllerForPresentedController:presentingController:sourceController:]', symObjAddr: 0x198, symBinAddr: 0x5C10, symSize: 0xC0 }
+  - { offset: 0x3DF7, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController animationControllerForDismissedController:]', symObjAddr: 0x258, symBinAddr: 0x5CD0, symSize: 0x78 }
+  - { offset: 0x3E3B, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController viewDidLoad]', symObjAddr: 0x2D0, symBinAddr: 0x5D48, symSize: 0x1088 }
+  - { offset: 0x3EC9, size: 0x8, addend: 0x0, symName: _CGSizeMake, symObjAddr: 0x1358, symBinAddr: 0x6DD0, symSize: 0x2C }
+  - { offset: 0x3F11, size: 0x8, addend: 0x0, symName: '-[BottomSheetViewController .cxx_destruct]', symObjAddr: 0x1384, symBinAddr: 0x6DFC, symSize: 0x8C }
+  - { offset: 0x3F43, size: 0x8, addend: 0x0, symName: '-[BottomSheetPresentationAnimation transitionDuration:]', symObjAddr: 0x1410, symBinAddr: 0x6E88, symSize: 0x58 }
+  - { offset: 0x3F87, size: 0x8, addend: 0x0, symName: '-[BottomSheetPresentationAnimation animateTransition:]', symObjAddr: 0x1468, symBinAddr: 0x6EE0, symSize: 0x398 }
+  - { offset: 0x4001, size: 0x8, addend: 0x0, symName: _CGRectMake, symObjAddr: 0x1800, symBinAddr: 0x7278, symSize: 0x4C }
+  - { offset: 0x4067, size: 0x8, addend: 0x0, symName: '___54-[BottomSheetPresentationAnimation animateTransition:]_block_invoke', symObjAddr: 0x184C, symBinAddr: 0x72C4, symSize: 0x128 }
+  - { offset: 0x40B3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1974, symBinAddr: 0x73EC, symSize: 0x3C }
+  - { offset: 0x40D7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x19B0, symBinAddr: 0x7428, symSize: 0x30 }
+  - { offset: 0x40F3, size: 0x8, addend: 0x0, symName: '___54-[BottomSheetPresentationAnimation animateTransition:]_block_invoke.28', symObjAddr: 0x19E0, symBinAddr: 0x7458, symSize: 0x44 }
+  - { offset: 0x413D, size: 0x8, addend: 0x0, symName: '-[BottomSheetDismissalAnimation transitionDuration:]', symObjAddr: 0x1A24, symBinAddr: 0x749C, symSize: 0x58 }
+  - { offset: 0x4183, size: 0x8, addend: 0x0, symName: '-[BottomSheetDismissalAnimation animateTransition:]', symObjAddr: 0x1A7C, symBinAddr: 0x74F4, symSize: 0x1FC }
+  - { offset: 0x41E3, size: 0x8, addend: 0x0, symName: '___51-[BottomSheetDismissalAnimation animateTransition:]_block_invoke', symObjAddr: 0x1C78, symBinAddr: 0x76F0, symSize: 0x11C }
+  - { offset: 0x421F, size: 0x8, addend: 0x0, symName: '___51-[BottomSheetDismissalAnimation animateTransition:]_block_invoke.90', symObjAddr: 0x1D94, symBinAddr: 0x780C, symSize: 0x44 }
+  - { offset: 0x426A, size: 0x8, addend: 0x0, symName: _SGUIModuleConditionMet, symObjAddr: 0x1DD8, symBinAddr: 0x7850, symSize: 0x438 }
+  - { offset: 0x4301, size: 0x8, addend: 0x0, symName: __logosLocalInit, symObjAddr: 0x2210, symBinAddr: 0x7C88, symSize: 0x450 }
+  - { offset: 0x441B, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGUModuleViewController$viewDidAppear$', symObjAddr: 0x2660, symBinAddr: 0x80D8, symSize: 0xCC }
+  - { offset: 0x4474, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGUModuleViewController$pxxDismissSelf', symObjAddr: 0x272C, symBinAddr: 0x81A4, symSize: 0x3C }
+  - { offset: 0x44A9, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGUModuleViewController$scaleDown$', symObjAddr: 0x2768, symBinAddr: 0x81E0, symSize: 0xF4 }
+  - { offset: 0x44ED, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGUModuleViewController$scaleUp$', symObjAddr: 0x285C, symBinAddr: 0x82D4, symSize: 0xF4 }
+  - { offset: 0x4531, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGULicenseViewController$handleAsyncResponse$', symObjAddr: 0x2950, symBinAddr: 0x83C8, symSize: 0x110 }
+  - { offset: 0x4575, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGULicenseViewController$reloadCells', symObjAddr: 0x2A60, symBinAddr: 0x84D8, symSize: 0x6E0 }
+  - { offset: 0x4637, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGULicenseViewController$viewDidAppear$', symObjAddr: 0x3140, symBinAddr: 0x8BB8, symSize: 0x344 }
+  - { offset: 0x469A, size: 0x8, addend: 0x0, symName: '__logos_method$_ungrouped$SGULicenseViewController$pxxIconTapped', symObjAddr: 0x3484, symBinAddr: 0x8EFC, symSize: 0x398 }
+  - { offset: 0x4709, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGUModuleViewController$viewDidAppear$_block_invoke', symObjAddr: 0x381C, symBinAddr: 0x9294, symSize: 0x244 }
+  - { offset: 0x47DB, size: 0x8, addend: 0x0, symName: _createDeepBlueButton, symObjAddr: 0x3A60, symBinAddr: 0x94D8, symSize: 0x590 }
+  - { offset: 0x4870, size: 0x8, addend: 0x0, symName: _safePresentViewController, symObjAddr: 0x3FF0, symBinAddr: 0x9A68, symSize: 0x19C }
+  - { offset: 0x48B6, size: 0x8, addend: 0x0, symName: _getActiveTopViewController, symObjAddr: 0x418C, symBinAddr: 0x9C04, symSize: 0x4D8 }
+  - { offset: 0x4918, size: 0x8, addend: 0x0, symName: _vernunftImage, symObjAddr: 0x4664, symBinAddr: 0xA0DC, symSize: 0x3D8 }
+  - { offset: 0x49F4, size: 0x8, addend: 0x0, symName: _SGUIFallbackImage, symObjAddr: 0x4A3C, symBinAddr: 0xA4B4, symSize: 0x110 }
+  - { offset: 0x4A2A, size: 0x8, addend: 0x0, symName: ___safePresentViewController_block_invoke, symObjAddr: 0x4B4C, symBinAddr: 0xA5C4, symSize: 0x48 }
+  - { offset: 0x4A74, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x4B94, symBinAddr: 0xA60C, symSize: 0x5C }
+  - { offset: 0x4A98, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x4BF0, symBinAddr: 0xA668, symSize: 0x48 }
+  - { offset: 0x4AB4, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGUModuleViewController$scaleDown$_block_invoke', symObjAddr: 0x4C38, symBinAddr: 0xA6B0, symSize: 0x74 }
+  - { offset: 0x4AF0, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGUModuleViewController$scaleUp$_block_invoke', symObjAddr: 0x4CAC, symBinAddr: 0xA724, symSize: 0x78 }
+  - { offset: 0x4B2C, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGULicenseViewController$handleAsyncResponse$_block_invoke', symObjAddr: 0x4D24, symBinAddr: 0xA79C, symSize: 0x48 }
+  - { offset: 0x4B8C, size: 0x8, addend: 0x0, symName: _SGUICustomEmail, symObjAddr: 0x4D6C, symBinAddr: 0xA7E4, symSize: 0xCC }
+  - { offset: 0x4BB6, size: 0x8, addend: 0x0, symName: _SGUICustomExpiryEpoch, symObjAddr: 0x4E38, symBinAddr: 0xA8B0, symSize: 0x1B4 }
+  - { offset: 0x4BEF, size: 0x8, addend: 0x0, symName: _SGUICustomOrderID, symObjAddr: 0x4FEC, symBinAddr: 0xAA64, symSize: 0xCC }
+  - { offset: 0x4C19, size: 0x8, addend: 0x0, symName: _SGUIMachineModel, symObjAddr: 0x50B8, symBinAddr: 0xAB30, symSize: 0x140 }
+  - { offset: 0x4C61, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGULicenseViewController$reloadCells_block_invoke', symObjAddr: 0x51F8, symBinAddr: 0xAC70, symSize: 0x58 }
+  - { offset: 0x4D27, size: 0x8, addend: 0x0, symName: ___SGUIDateFormatter_block_invoke, symObjAddr: 0x52D8, symBinAddr: 0xAD50, symSize: 0xB0 }
+  - { offset: 0x4D51, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x5388, symBinAddr: 0xAE00, symSize: 0x58 }
+  - { offset: 0x4D75, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x53E0, symBinAddr: 0xAE58, symSize: 0x30 }
+  - { offset: 0x4D91, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGULicenseViewController$pxxIconTapped_block_invoke', symObjAddr: 0x5410, symBinAddr: 0xAE88, symSize: 0xAC }
+  - { offset: 0x4DE2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x54BC, symBinAddr: 0xAF34, symSize: 0x3C }
+  - { offset: 0x4E06, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x54F8, symBinAddr: 0xAF70, symSize: 0x30 }
+  - { offset: 0x4E22, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGULicenseViewController$pxxIconTapped_block_invoke.267', symObjAddr: 0x5528, symBinAddr: 0xAFA0, symSize: 0xDC }
+  - { offset: 0x4E73, size: 0x8, addend: 0x0, symName: '____logos_method$_ungrouped$SGULicenseViewController$pxxIconTapped_block_invoke_2', symObjAddr: 0x5604, symBinAddr: 0xB07C, symSize: 0x17C }
+  - { offset: 0x4F29, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r40r, symObjAddr: 0x5780, symBinAddr: 0xB1F8, symSize: 0x60 }
+  - { offset: 0x4F4D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r40r, symObjAddr: 0x57E0, symBinAddr: 0xB258, symSize: 0x48 }
+...
