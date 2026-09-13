@@ -1,9 +1,0 @@
-Package: com.pxx917144686.surge
-Name: Surge++
-Version: 0.6.0
-Architecture: iphoneos-arm64-Rootful
-Maintainer: Nets
-Author: pxx917144686
-Section: Tweaks
-Depends: firmware (>= 14.0)
-Description: 修复 “已知问题”
