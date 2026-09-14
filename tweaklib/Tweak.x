@@ -7,7 +7,7 @@
 //   写: 持久化块 sub_10028F13C @0x10028F13C → setOfficialModulesData: 原样存储
 //   拉取: POST https://www.surge-activation.com/ios/v3/resource/module?v=<版本>
 //       (备用 https://13.248.139.174/);响应包 {"code":0,"data":"<base64>","message":...}
-//       实测服务器对未授权设备返回 403 → 拉取链不可用,数据必须本地注入。
+//       实测服务器对未授权设备返回 403 → 拉取链不可用,所以我是数据必须本地注入。
 //
 // 注入面(三层互为兜底):
 //   1) NSUserDefaults objectForKey: 读拦截
@@ -92,7 +92,7 @@ static void SGSeedSharedContainerFiles(void) {
     NSString *plistFilePath = [targetFolderPath stringByAppendingPathComponent:@"group.com.nssurge.inc.surge-ios.plist"];
     NSString *sgjsvmInjectPath = [containerURL.path stringByAppendingPathComponent:@"SGJSVMInject"];
 
-    // 只做缺失补齐:目录仅创建不删除,文件仅缺失时写入,永不覆盖。
+    // 只做缺失补齐:目录仅创建不删除,文件仅缺失时写入,不覆盖。
     [[NSFileManager defaultManager] createDirectoryAtPath:targetFolderPath
                               withIntermediateDirectories:YES attributes:nil error:nil];
     if (![[NSFileManager defaultManager] fileExistsAtPath:plistFilePath]) {
@@ -171,7 +171,7 @@ static NSDictionary *SGMiniActivationResponse(NSURLRequest *request, NSString *u
     if (!pd) return base;
     NSDictionary *license = @{
         @"policy": [pd base64EncodedStringWithOptions:0],
-        @"sign":   @"cnQuc3VyZ2U=",   // 验签由 0x267a44 补丁恒过
+        @"sign":   @"cnQuc3VyZ2U=",   // 验签由 0x267a44 补丁
     };
     return @{@"code": @0, @"license": license, @"status": @"success"};
 }
@@ -245,16 +245,4 @@ __attribute__((unused)) static BOOL SGIsSurgeActivationURL(NSString *urlString) 
     return %orig;
 }
 
-%end
-
-// ---------------------- 禁用官方模块自动启用(防节点断开) ----------------------
-// 进入模块页 → 合成模块响应 → App 处理 → _enableNewOfficialModules → 自动启用全部模块 → Profile 改写 → NE 重启 → 节点断开
-
-@interface SGModuleManager : NSObject
-@end
-
-%hook SGModuleManager
-- (void)_enableNewOfficialModules {
-    NSLog(@"[Tweak] 已跳过官方模块自动启用");
-}
 %end

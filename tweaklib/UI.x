@@ -520,5 +520,3 @@ BOOL SGUIModuleConditionMet(void) {
         ((NSString *)plistDict[@"OfficialModulesData"]).length > 0;
     return plistExists && sgjsvmExists && officialModulesDataValid;
 }
-
-// 注:模块数据注入(NSUserDefaults)与激活端点拦截(SGRequestHelper)统一在 Tweak.x 实现,此处不再重复 hook。
