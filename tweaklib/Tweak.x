@@ -135,14 +135,14 @@ static void SGCompleteWithModuleResponse(NSString *urlString,
 }
 
 
-// 注: 授权页显示字段(orderID/email 等)由 UI.x 自定义覆盖, 不依赖此响应。
+// 授权页显示字段(orderID/email 等)由 UI.x 自定义覆盖, 不依赖此响应。
 static NSDictionary *SGMiniActivationResponse(NSURLRequest *request, NSString *urlString) {
     NSDictionary *base = @{@"code": @0, @"status": @"success"};
     BOOL licEndpoint = [urlString containsString:@"/ios/v3/refresh"]
                     || [urlString containsString:@"/ios/v3/activate"];
     if (!licEndpoint) return base;
 
-    // deviceID 优先取请求体(旧版同款), 兜底钥匙串
+    // deviceID 优先取请求体, 兜底使用钥匙串
     NSString *deviceID = nil;
     NSDictionary *body = nil;
     if ([request isKindOfClass:[NSURLRequest class]] && request.HTTPBody) {
